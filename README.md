@@ -11,3 +11,8 @@
 ## Calling the service (in 2nd terminal):
 - `rosservice call /call_topic "inc_dec: true"` (the level of battery is increased) or 
 - `rosservice call /call_topic "inc_dec: false"` (the level of battery is decreased).
+
+!(imgs/true.png)
+!(imgs/false.png)
+
+
