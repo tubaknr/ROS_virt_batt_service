@@ -1,0 +1,11 @@
+<launch>
+    <arg name="increase_rate" default="1"/>
+    <arg name="decrease_rate" default="5"/>
+
+    <node name="vb_service" pkg="vb_service" type="virt_batt.py" output="screen">
+        <param name="increase_rate" type="int" value="$(arg increase_rate)"/>
+        <param name="decrease_rate" type="int" value="$(arg decrease_rate)"/>
+    </node>
+
+</launch>
+

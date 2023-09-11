@@ -1,0 +1,4 @@
+int8 increase_rate
+int8 decrease_rate
+int8 current_batt_level
+bool is_charging
