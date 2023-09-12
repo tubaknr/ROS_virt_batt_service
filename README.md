@@ -5,14 +5,22 @@
 - battery level is started from 60%.
 
 
-## Running (in 1st terminal):
+## Running the main launch file (in 1st terminal):
 - `roslaunch vb_ser_2 virt_batt.launch`
 
 ## Calling the service (in 2nd terminal):
-- `rosservice call /call_topic "inc_dec: true"` (the level of battery is increased) or 
-- `rosservice call /call_topic "inc_dec: false"` (the level of battery is decreased).
+- `rosservice call /call_topic "inc_dec: true"` (the level of the battery is increased) or 
+- `rosservice call /call_topic "inc_dec: false"` (the level of the battery is decreased).
 
-!(imgs/true.png)
-!(imgs/false.png)
+## The results will be obtained by running above commands:
+<center>
+<img src="imgs/true.png"/>
+</center>
 
+<center>
+<img src="imgs/false.png"/>
+</center>
+
+## Note: 
+This repo is connected with [Virtual Battery Concept](https://github.com/tubaknr/virtual_battery_v2). 
 
