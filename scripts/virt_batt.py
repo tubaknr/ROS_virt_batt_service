@@ -4,7 +4,7 @@ import rospy
 from std_msgs.msg import Bool 
 from sensor_msgs.msg import BatteryState
 from virtual_battery_v2.msg import xyz
-from vb_service.srv  import CallTopic, CallTopicResponse 
+from ROS_virt_batt_service.srv import CallTopic, CallTopicResponse 
 
 class VBNode:
     def __init__(self):

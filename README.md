@@ -6,7 +6,7 @@
 
 
 ## Running the main launch file (in 1st terminal):
-- `roslaunch vb_ser_2 virt_batt.launch`
+- `roslaunch ROS_virt_batt_service virt_batt.launch`
 
 ## Calling the service (in 2nd terminal):
 - `rosservice call /call_topic "inc_dec: true"` (the level of the battery is increased) or 

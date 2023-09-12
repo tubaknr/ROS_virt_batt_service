@@ -1,6 +1,6 @@
 <?xml version="2.0"?>
 <package format="2">
-  <name>vb_ser_2</name>
+  <name>ROS_virt_batt_service</name>
   <version>2.0.0</version>
   <description>The vb_ser_2 package</description>
 
